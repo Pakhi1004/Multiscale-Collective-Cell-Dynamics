@@ -1,0 +1,11 @@
+# large data (regenerate: sim_data from the simulator, data/ via src/render.py)
+data/
+sim_data/
+# checkpoints: keep only the final best model
+runs/**/*.pt
+!runs/cvt_Ka_skip4_lr3e-4_100ep/best.pt
+# misc
+*.log
+.DS_Store
+__pycache__/
+*.pyc
